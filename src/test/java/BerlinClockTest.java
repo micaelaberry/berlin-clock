@@ -28,7 +28,7 @@ public class BerlinClockTest {
 	
 	@Test
 	public void topRedRowShouldReturn5Hours(){
-		assertEquals("5", berlinClock.getTopRowHours(5));
+		assertEquals("5", berlinClock.getTopRowHours());
 	}
 	
 

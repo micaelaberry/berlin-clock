@@ -12,7 +12,10 @@ public class BerlinClock {
 		return "4";
 	}
 
-	public String getTopRowHours(int number) {
-		return "5";
+	public String getTopRowHours() {
+		
+		for (int number = 0; number <= 5; number++){			
 	}
+	return"5";
+}
 }
