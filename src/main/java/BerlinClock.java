@@ -7,4 +7,8 @@ public class BerlinClock {
 		} else
 			return "O";
 	}
+
+	public String getTopRedTopRow() {
+		return "4";
+	}
 }
