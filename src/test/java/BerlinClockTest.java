@@ -22,9 +22,14 @@ public class BerlinClockTest {
 	}
 	
 	@Test
-	public void topRedRowShouldHaveFourLampsAndRepresentFiveHours(){
-		assertEquals("4", berlinClock.getTopRedTopRow());
-		
+	public void topRedRowShouldHaveFourLamps(){
+		assertEquals("4", berlinClock.getTopRedTopRow());	
 	}
+	
+	@Test
+	public void topRedRowShouldReturn5Hours(){
+		assertEquals("5", berlinClock.getTopRowHours(5));
+	}
+	
 
 }

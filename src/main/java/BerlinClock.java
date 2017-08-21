@@ -11,4 +11,8 @@ public class BerlinClock {
 	public String getTopRedTopRow() {
 		return "4";
 	}
+
+	public String getTopRowHours(int number) {
+		return "5";
+	}
 }
