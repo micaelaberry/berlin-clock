@@ -46,7 +46,9 @@ public class BerlinClockTest {
 	
 	
 	
+	
 }
+
 //	@Test
 //	public void everyTwoSecondsTheYellowLampBlinksOff(){
 //		assertEquals("Y", berlinClock.getSeconds(0));
