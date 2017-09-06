@@ -1,4 +1,4 @@
-
+//Y is yellow
 public class BerlinClock {
 	
 	int seconds = 0;
