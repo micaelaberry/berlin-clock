@@ -31,7 +31,7 @@ public class BerlinClockTest {
 		BerlinClock underTest = new BerlinClock();
 		underTest.tick();
 		String seconds = underTest.seconds();
-		assertThat(seconds, is("OFF"));;
+		assertThat(seconds, is("OFF"));
 	}
 	
 	@Test
