@@ -1,4 +1,5 @@
 //Y is yellow
+//O is off 
 public class BerlinClock {
 	
 	int seconds = 0;
